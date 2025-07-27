@@ -1,0 +1,214 @@
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vidanga - Dravyaguna Information</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Cambria', serif;
+      background-color: #f9f6f2;
+      color: #333;
+      line-height: 1.6;
+      padding: 0;
+      margin: 0;
+    }
+    .header {
+      background-color: #740808;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 5px 10px;
+      z-index: 1000;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      height: auto;
+    }
+    .header-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      margin-top: 2px;
+    }
+    .header img {
+      height: 60px;
+      width: 60px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 2px solid white;
+    }
+    .institution-name {
+      text-align: center;
+      font-size: 10px;
+      font-weight: bold;
+      color: white;
+      margin-bottom: 2px;
+    }
+    .college-name {
+      text-align: center;
+      font-size: 16px;
+      font-weight: bold;
+      color: white;
+      flex: 1 1 100%;
+      margin: 0 10px;
+    }
+    .intro-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: #f9f6f2;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 999;
+      animation: fadeOutOverlay 2s ease-out forwards;
+      animation-delay: 2s;
+    }
+    .intro-overlay h1 {
+      font-size: 64px;
+      color: #800000;
+      animation: zoomFade 2s ease-in-out forwards;
+    }
+    @keyframes fadeOutOverlay {
+      to {
+        opacity: 0;
+        visibility: hidden;
+      }
+    }
+    @keyframes zoomFade {
+      0% {
+        transform: scale(0.8);
+        opacity: 0;
+      }
+      50% {
+        transform: scale(1.05);
+        opacity: 1;
+      }
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+    .content {
+      padding: 120px 20px 20px;
+      max-width: 950px;
+      margin: auto;
+      opacity: 0;
+      animation: fadeIn 2s ease-in-out forwards;
+      animation-delay: 4s;
+    }
+    h2 {
+      text-align: center;
+      color: #2f4f4f;
+      font-size: 18px;
+    }
+    .section {
+      margin-bottom: 20px;
+    }
+    .section-title {
+      font-weight: bold;
+      font-size: 16px;
+      color: #006400;
+      margin-top: 15px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 4px;
+    }
+    .line {
+      margin-left: 20px;
+      font-size: 14px;
+    }
+    em {
+      font-style: italic;
+    }
+    .footer {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 10px;
+      color: #555;
+    }
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+    @media (min-width: 600px) {
+      .college-name {
+        font-size: 28px;
+        margin-top: 0;
+      }
+      .institution-name {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="intro-overlay">
+    <h1>विडङ्ग</h1>
+  </div>
+
+  <div class="header">
+    <div class="institution-name">Shree Beereshwara Shikshana Sansthe</div>
+    <div class="header-top">
+      <img src="https://raw.githubusercontent.com/diliphotic/dravyaguna-pages/refs/heads/main/COLLEGE%20LOGO.png" alt="Left Logo">
+      <div class="college-name">KRISHNA AYURVEDIC MEDICAL COLLEGE AND HOSPITAL, SANKESHWAR</div>
+      <img src="https://raw.githubusercontent.com/diliphotic/dravyaguna-pages/refs/heads/main/SBSS%20LOGO.png" alt="Right Logo">
+    </div>
+  </div>
+
+  <div class="content">
+    <h2>Department of Dravyaguna</h2>
+
+    <div class="section">
+      <div class="section-title">Sanskrit Name</div>
+      <div class="line">विडङ्ग</div>
+
+      <div class="section-title">Botanical Name</div>
+      <div class="line"><em>Embellica ribes</em> Burn. F</div>
+
+      <div class="section-title">Family</div>
+      <div class="line">Myrsinaceae</div>
+
+      <div class="section-title">Vernacular Names</div>
+      <div class="line">Hindi: Baberang</div>
+      <div class="line">Marathi: Vavadinga</div>
+      <div class="line">English: Embelia fruit</div>
+      <div class="line">Local Name: Vayu Vidanga</div>
+
+      <div class="section-title">Part Used</div>
+      <div class="line">Fruit</div>
+
+      <div class="section-title">Medicinal Properties</div>
+      <div class="line">1) Krimighna</div>
+      <div class="line">2) Kushthaghna</div>
+      <div class="line">3) Ajirna</div>
+      <div class="line">4) Vaidangadi Kashaya</div>
+
+      <div class="section-title">Formulations</div>
+      <div class="line">1) Vidangadi Churna</div>
+      <div class="line">2) Vidanga Ghrita</div>
+      <div class="line">3) Vidanga Taila</div>
+      <div class="line">4) Vidangadi Kashaya</div>
+
+      <div class="section-title">Identification Features</div>
+      <div class="line">1) Large scandent shrub</div>
+      <div class="line">2) Bark stubbed with lenticels</div>
+      <div class="line">3) Leaves: elliptic, lanceolate, coriaceous, shiny above, silvery beneath</div>
+      <div class="line">4) Fruit: Globose</div>
+    </div>
+
+    <div class="footer">
+      Prepared by Department of Dravyaguna Vijnana | K.A.M.C.H Sankeshwar
+    </div>
+  </div>
+
+
+
+</body></html>
