@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   KAPILU
+  </title>
+  <style>
+   body {
+      font-family: 'Cambria', serif;
+      background-color: #f9f6f2;
+      margin: 0;
+      padding-top: 120px;
+    }
+    .header {
+      background-color: #740808;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 5px 10px;
+      z-index: 1000;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      height: auto;
+    }
+    .header-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      margin-top: 2px;
+    }
+    .header img {
+      height: 65px;
+      width: 65px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 2px solid white;
+    }
+    .institution-name {
+      text-align: center;
+      font-size: 10px;
+      font-weight: bold;
+      color: white;
+      margin-bottom: 2px;
+    }
+    .college-name {
+      text-align: center;
+      font-size: 16px;
+      font-weight: bold;
+      color: white;
+      flex: 1 1 100%;
+      margin: 0 10px;
+    }
+    .department-name {
+      text-align: center;
+      font-size: 14px;
+      font-weight: bold;
+      color: white;
+      margin-top: 4px;
+    }
+    .intro-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: #f9f6f2;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 999;
+      animation: fadeOutOverlay 2s ease-out forwards;
+      animation-delay: 2s;
+    }
+    .intro-overlay h1 {
+      font-size: 64px;
+      color: #800000;
+      animation: zoomFade 2s ease-in-out forwards;
+    }
+    @keyframes zoomFade {
+      0% { opacity: 1; transform: scale(1); }
+      100% { opacity: 0; transform: scale(2); }
+    }
+    @keyframes fadeOutOverlay {
+      to { opacity: 0; visibility: hidden; }
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+    h2 {
+      color: #800000;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
+      font-size: 18px;
+    }
+    h3  {
+      text-align: center;
+      color: #2f4f4f;
+      font-size: 24px;
+    }
+    p {
+      line-height: 1.6;
+    }
+    .footer {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 10px;
+      color: #555;
+    }
+  
+    .dist-tq-container {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+    }
+    .dist-name,
+    .tq-name {
+        font-size: 12px;
+        font-weight: bold;
+        color: white;
+        margin: 0 10px;
+    }
+  </style>
+ </head>
+ <body>
+  <div class="intro-overlay">
+   <h1>
+    KAPILU
+   </h1>
+  </div>
+  <div class="header">
+   <div class="institution-name">
+    Shree Beereshwara Shikshana Sansthe
+   </div>
+   <div class="header-top">
+    <img alt="Left Logo" src="https://raw.githubusercontent.com/diliphotic/dravyaguna-pages/refs/heads/main/COLLEGE%20LOGO.png"/>
+    <div class="college-name">
+     KRISHNA AYURVEDIC MEDICAL COLLEGE AND HOSPITAL, SANKESHWAR
+    </div>
+    <img alt="Right Logo" src="https://raw.githubusercontent.com/diliphotic/dravyaguna-pages/refs/heads/main/SBSS%20LOGO.png"/>
+   </div>
+   <div class="dist-tq-container">
+    <div class="tq-name">
+     TQ: HUKKERI
+    </div>
+    <div class="dist-name">
+     DIST: BELAGAVI
+    </div>
+   </div>
+  </div>
+  <div class="content">
+   <h3>
+    Department of Dravyaguna
+   </h3>
+  </div>
+  <div class="container">
+   <h2>
+    Sanskrit Name
+   </h2>
+   <p>
+    KAPILU
+   </p>
+   <h2>
+    Botanical Name
+   </h2>
+   <p>
+    𝘚𝘵𝘳𝘺𝘤𝘩𝘯𝘶𝘴 𝘯𝘶𝘹 𝘷𝘰𝘮𝘪𝘤𝘢 𝘓𝘪𝘯𝘯.
+   </p>
+   <h2>
+    Family
+   </h2>
+   <p>
+    LOGANIACEAE
+   </p>
+   <h2>
+    Vernacular Names
+   </h2>
+   <p>
+    HINDI : Kuchla MARATHI : Kajra ENGLISH NAME: Nux Vomica LOCAL NAME : Kanji, Hemusthi, Kasarkayi
+   </p>
+   <h2>
+    Parts Used
+   </h2>
+   <p>
+    Bija
+   </p>
+   <h2>
+    Medicinal Properties
+   </h2>
+   <p>
+    1) Akshepajanana
+    <br/>
+    2) Vishaghna
+    <br/>
+    3) Grahi
+    <br/>
+    4) Vamihara
+   </p>
+   <h2>
+    Formulations
+   </h2>
+   <p>
+    1) Agnitundi vati
+    <br/>
+    2) Krumimudga rasa
+    <br/>
+    3) Kitmarda Rasa
+    <br/>
+    4) Laxmivilasa Rasa
+   </p>
+   <h2>
+    Identification Features
+   </h2>
+   <p>
+    1) Tree has sharp and strong axillary spines.
+    <br/>
+    2) Leaves  opposite, broadly elliptic, acute tip, glabrous, rounded base.
+    <br/>
+    3) Fruit  Globose
+   </p>
+   <div class="footer">
+    Prepared by Department of Dravyaguna Vijnana | K.A.M.C.H Sankeshwar
+   </div>
+  </div>
+ </body>
+</html>
